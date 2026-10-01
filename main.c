@@ -2,17 +2,15 @@
 
 int main(void)
 {
-    int num; //정수선언
+    int num;
 
     printf("Input an integer:");
-    scanf("%i",&num);
+    scanf("%i", &num);
 
-    if (num>=0)
-        printf("Absolute value: %d!\n",num);
+    if (num >= 0)
+        printf("Absolute value: %d\n", num);
     else
-        printf("Absolute value: %d!\n",-num);
+        printf("Absolute value: %d\n", -num);
 
     return 0;
-
-    
 }
